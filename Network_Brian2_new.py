@@ -2,7 +2,7 @@ from brian2 import *
 
 
 # Initialize lists to store results for different input rates
-input_rates = [5, 20, 50]
+input_rates = [5, 20, 50] ## Change the name of the parameter you want to test and the values to be tested
 mean_firing_rates_RS = []
 mean_firing_rates_FS = []
 CVs_RS = []
